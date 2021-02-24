@@ -6,7 +6,7 @@ export default function References({data}) {
     return (
         <div>
             <Header/>
-            <div>References here</div>
+            <div>These are the references</div>
             <ul>
                 {data.allDatoCmsReference.edges.map(({ node }, index) => (
                     <li>{node.name}</li>
